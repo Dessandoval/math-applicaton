@@ -8,8 +8,15 @@ public class MathApp {
         // then use System.out.println() to display results
         // ex: System.out.println("The answer is " + answer);
         int bobSalary;
-        int graySalary;
+        int garySalary;
         int highestSalary;
+
+        bobSalary = 20000;
+        garySalary = 40000;
+
+        highestSalary = Math.max(bobSalary, + garySalary);
+        System.out.println("the highest salary is " + highestSalary);
+
 
     }
 }
