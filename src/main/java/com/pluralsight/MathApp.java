@@ -15,7 +15,7 @@ public class MathApp {
         garySalary = 45000;
 
         highestSalary = Math.max(bobSalary,  garySalary);
-        System.out.println("the highest salary is " + highestSalary);
+        System.out.println("The highest salary is " + highestSalary);
 
 
     }
