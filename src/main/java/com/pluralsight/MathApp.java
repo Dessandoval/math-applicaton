@@ -2,11 +2,7 @@ package com.pluralsight;
 
 public class MathApp {
     public static void main(String[] args) {
-        // Question 1:
-        // declare variables here
-        // then code solution
-        // then use System.out.println() to display results
-        // ex: System.out.println("The answer is " + answer);
+
         int bobSalary;
         int garySalary;
         int highestSalary;
@@ -30,6 +26,12 @@ public class MathApp {
         double radius = 7.25;
         double area = Math.PI * Math.pow(radius, 2);
         System.out.println("The area of the circle is " + area);
+
+        // Find and display the square root of a variable after it is set to 5.0
+        double numberToRoot = 5.0;
+        double squareRoot = Math.sqrt(numberToRoot);
+        System.out.println("The square root of " + numberToRoot + " is " + squareRoot + ".");
+
 
 
 
